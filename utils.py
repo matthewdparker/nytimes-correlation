@@ -17,8 +17,8 @@ def create_cooccurrence_dict(date1='20000101', date2='20100101', n=100):
     api = articleAPI('183d226fb68241c8ae9afca9c6f9d24e')
 
     # Import reference data associating names with tickers, join into single dataframe stock_info
-    nasdaq = pd.read_csv('data/NASDAQ_filtered_by_market_cap.csv')
-    nyse = pd.read_csv('data/NYSE_filtered_by_market_cap.csv')
+    nasdaq = pd.read_csv('data/NASDAQ_munged.csv')
+    nyse = pd.read_csv('data/NYSE_munged.csv')
     stock_info = nasdaq.append(nyse)
 
     # Sort and subset to top n companies by market cap
@@ -110,8 +110,8 @@ def calculate_cov_and_corr(series1, series2):
 
 def create_corr_and_cov_dicts(start_date, end_date, n=100):
     # Import reference data associating names with tickers, join into single dataframe stock_info
-    nasdaq = pd.read_csv('data/NASDAQ_filtered_by_market_cap.csv')
-    nyse = pd.read_csv('data/NYSE_filtered_by_market_cap.csv')
+    nasdaq = pd.read_csv('data/NASDAQ_munged.csv')
+    nyse = pd.read_csv('data/NYSE_munged.csv')
     stock_info = nasdaq.append(nyse)
 
     # Sort and subset to top n companies by market cap
@@ -158,28 +158,20 @@ def create_corr_and_cov_dicts(start_date, end_date, n=100):
 
 
 def munge_stock_metadata():
-    """Run once to munge raw downloaded NASDAQ and NYSE data, will transform MarketCap column into float where possible and sort"""
-    nasdaq = pd.read_csv('data/NASDAQ.csv')
-    nyse = pd.read_csv('data/NYSE.csv')
+    """Run once to munge raw downloaded NASDAQ and NYSE data from string formats to floats where appropriate; will transform MarketCap column into float where possible and sort, then transform IPOyear column to integer where possible"""
 
-    for row_index in xrange(len(nasdaq)):
-        nasdaq.MarketCap.iloc[row_index] = nasdaq.MarketCap.iloc[row_index][1:]
-    for row_index in xrange(len(nasdaq)):
-        if nasdaq.MarketCap.iloc[row_index][-1] == 'B':
-            nasdaq.MarketCap.iloc[row_index] = float(nasdaq.MarketCap.iloc[row_index][:-1])*1000000000
-        elif nasdaq.MarketCap.iloc[row_index][-1] == 'M':
-            nasdaq.MarketCap.iloc[row_index] = float(nasdaq.MarketCap.iloc[row_index][:-1])*1000000
-    nasdaq = nasdaq[nasdaq.apply(lambda x: type(x['MarketCap']) == float, axis=1)]
-    nasdaq = nasdaq.sort('MarketCap', ascending=False)
-    nasdaq.to_csv('data/NASDAQ_filtered_by_market_cap.csv')
+    for i in ['data/NYSE.csv', 'data/NASDAQ.csv']:
+        df = pd.read_csv(i)
 
-    for row_index in xrange(len(nyse)):
-        nyse.MarketCap.iloc[row_index] = nyse.MarketCap.iloc[row_index][1:]
-    for row_index in xrange(len(nyse)):
-        if nyse.MarketCap.iloc[row_index][-1] == 'B':
-            nyse.MarketCap.iloc[row_index] = float(nyse.MarketCap.iloc[row_index][:-1])*1000000000
-        elif nyse.MarketCap.iloc[row_index][-1] == 'M':
-            nyse.MarketCap.iloc[row_index] = float(nyse.MarketCap.iloc[row_index][:-1])*1000000
-    nyse = nyse[nyse.apply(lambda x: type(x['MarketCap']) == float, axis=1)]
-    nyse = nyse.sort('MarketCap', ascending=False)
-    nyse.to_csv('data/NYSE_filtered_by_market_cap.csv')
+        for row_index in xrange(len(df)):
+            df.MarketCap.iloc[row_index] = df.MarketCap.iloc[row_index][1:]
+        for row_index in xrange(len(df)):
+            if df.MarketCap.iloc[row_index][-1] == 'B':
+                df.MarketCap.iloc[row_index] = float(df.MarketCap.iloc[row_index][:-1])*1000000000
+            elif df.MarketCap.iloc[row_index][-1] == 'M':
+                df.MarketCap.iloc[row_index] = float(df.MarketCap.iloc[row_index][:-1])*1000000
+        df = df[df.apply(lambda x: type(x['MarketCap']) == float, axis=1)]
+        df = df.sort_values(by='MarketCap', ascending=False)
+
+        df.IPOyear = pd.to_numeric(df.IPOyear, errors='coerce')
+        df.to_csv(i[:-4]+"_munged.csv")
