@@ -1,0 +1,501 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1,Unnamed: 0.1.1,Symbol,Name,LastSale,MarketCap,IPOyear,Sector,industry,Summary Quote,Unnamed: 8,ipo
+0,0,3019,3019,3019,WMT,"Wal-Mart Stores, Inc",66.65,2.0483e+11,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/wmt,,0
+1,1,3020,3020,3020,DIS,Walt Disney Company,107.12,1.7048e+11,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dis,,0
+2,2,1442,1442,1442,HD,Home Depot Inc,138.07,1.6819e+11,,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/hd,,0
+3,3,1815,1815,1815,MCD,McDonald's Corporation,121.38,1.008e+11,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/mcd,,0
+4,4,2807,2807,2807,TWX,Time Warner Inc,96.77,74680000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/twx,,0
+5,5,1741,1741,1741,LOW,Lowe's Companies Inc,72.58,63130000000.0,,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/low,,0
+6,6,2555,2555,2555,SPG,Simon Property Group Inc,185.0,58130000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/spg,,0
+7,7,2811,2811,2811,TJX,TJX Companies Inc,74.49,48560000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/tjx,,0
+8,8,151,151,151,AMT,American Tower Corporation,104.78,44730000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/amt,,0
+9,9,1684,1684,1684,LVS,Las Vegas Sands Corp,55.47,44090000000.0,2004.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/lvs,,0
+10,10,1590,1590,1590,JCI,Johnson Controls International,43.24,40500000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/jci,,0
+11,11,577,577,577,CUK,Carnival Corporation,52.63,38210000000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/cuk,,0
+12,12,2324,2324,2324,PSA,Public Storage,220.25,38200000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/psa,,0
+13,13,2408,2408,2408,RELX,RELX PLC,18.09,37180000000.0,2015.0,Consumer Services,Publishing,http://www.nasdaq.com/symbol/relx,,0
+14,14,2704,2704,2704,TGT,Target Corporation,63.85,35860000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/tgt,,0
+15,15,504,504,504,BAM,Brookfield Asset Management Inc,34.78,34350000000.0,,Consumer Services,Building operators,http://www.nasdaq.com/symbol/bam,,0
+16,16,2407,2407,2407,RENX,RELX NV,16.65,34220000000.0,2015.0,Consumer Services,Publishing,http://www.nasdaq.com/symbol/renx,,0
+17,17,2799,2799,2799,TRI,Thomson Reuters Corp,44.89,32730000000.0,,Consumer Services,Publishing,http://www.nasdaq.com/symbol/tri,,0
+18,18,1670,1670,1670,KR,Kroger Company,33.53,31460000000.0,,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/kr,,0
+19,19,817,817,817,CCI,Crown Castle International Corp,87.06,31390000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cci,,0
+20,20,576,576,576,CCL,Carnival Corp,53.77,28820000000.0,1987.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/ccl,,0
+21,21,2300,2300,2300,PLD,Prologis Inc,52.83,27930000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pld,,0
+22,22,593,593,593,CBS,CBS Corp,63.26,27180000000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/cbs,,0
+23,23,2545,2545,2545,SHW,Sherwin-Williams Company,284.0,26390000000.0,,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/shw,,0
+24,24,3057,3057,3057,HCN,Welltower Inc,67.68,24540000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcn,,0
+25,25,288,288,288,AVB,AvalonBay Communities Inc,176.9,24290000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/avb,,0
+26,26,3141,3141,3141,YUM,Yum! Brands Inc,64.41,23640000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yum,,0
+27,27,1095,1095,1095,EQR,Equity Residential,63.02,23040000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqr,,0
+28,28,3097,3097,3097,WY,Weyerhaeuser Company,30.43,22760000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wy,,0
+29,29,1280,1280,1280,GGP,General Growth Properties Inc,25.62,22690000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ggp,,0
+30,30,2961,2961,2961,VTR,Ventas Inc,61.93,21930000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vtr,,0
+31,31,287,287,287,AZO,AutoZone Inc,739.35,21160000000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/azo,,0
+32,32,2989,2989,2989,VNO,Vornado Realty Trust,107.2,20260000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vno,,0
+33,33,480,480,480,BXP,Boston Properties Inc,130.6,20080000000.0,1997.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bxp,,0
+34,34,904,904,904,DG,Dollar General Corp,70.46,19470000000.0,2009.0,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dg,,0
+35,35,2738,2738,2738,TI,Telecom Italia,9.09,19300000000.0,,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/ti,,0
+36,36,1437,1437,1437,HLT,Hilton Worldwide Holdings Inc,57.75,19020000000.0,2016.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/hlt,,0
+37,37,2462,2462,2462,RCL,Royal Caribbean Cruises,84.96,18230000000.0,1993.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/rcl,,0
+38,38,1674,1674,1674,LB,L Brands Inc,61.16,17490000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/lb,,0
+39,39,889,889,889,DLR,Digital Realty Trust Inc,106.05,16860000000.0,2004.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dlr,,0
+40,40,1862,1862,1862,MGM,MGM Resorts International,28.5,16340000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mgm,,0
+41,41,2448,2448,2448,RCI,Rogers Communication Inc,40.15,16160000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/rci,,0
+42,42,2388,2388,2388,O,Realty Income Corp,60.26,15580000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/o,,0
+43,43,1101,1101,1101,ESS,Essex Property Trust Inc,231.11,15140000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ess,,0
+44,44,3013,3013,3013,GWW,WW Grainger Inc,245.83,14640000000.0,,Consumer Services,Office Equipment/Supplies/Services,http://www.nasdaq.com/symbol/gww,,0
+45,45,1398,1398,1398,HCP,HCP Inc,30.33,14190000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcp,,0
+46,46,387,387,387,BBY,Best Buy Co,43.54,13660000000.0,,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/bby,,0
+47,47,1450,1450,1450,HST,Host Hotels & Resorts Inc,18.24,13500000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hst,,0
+48,48,620,620,620,GIB,CGI Group Inc,47.71,12790000000.0,,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/gib,,0
+49,49,1360,1360,1360,TV,Grupo Televisa,21.61,12610000000.0,1993.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/tv,,0
+50,50,29,29,29,AAP,Advance Auto Parts Inc,167.78,12360000000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/aap,,0
+51,51,658,658,658,CMG,Chipotle Mexican Grill,407.72,11800000000.0,2006.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/cmg,,0
+52,52,2422,2422,2422,QSR,Restaurant Brands International Inc,48.4,11340000000.0,2014.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/qsr,,0
+53,53,2564,2564,2564,SLG,SL Green Realty Corp,109.61,11110000000.0,1997.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/slg,,0
+54,54,1864,1864,1864,MAA,Mid-America Apartment Communities Inc,95.94,10890000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/maa,,0
+55,55,1638,1638,1638,KIM,Kimco Realty Corp,25.35,10770000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/kim,,0
+56,56,179,179,179,NLY,Annaly Capital Management Inc,10.25,10440000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nly,,0
+57,57,3140,3140,3140,YUMC,Yum China Holdings Inc,26.71,10210000000.0,2016.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yumc,,0
+58,58,1140,1140,1140,FRT,Federal Realty Investment Trust,141.72,10170000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/frt,,0
+59,59,1760,1760,1760,MAC,Macerich Company,70.08,10070000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mac,,0
+60,60,2803,2803,2803,TIF,Tiffany & Co,78.74,9800000000.0,1987.0,Consumer Services,Consumer Specialties,http://www.nasdaq.com/symbol/tif,,0
+61,61,2543,2543,2543,SJR,Shaw Communications Inc,20.83,9700000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sjr,,0
+62,62,2905,2905,2905,UDR,United Dominion Realty Trust Inc,36.05,9630000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/udr,,0
+63,63,1260,1260,1260,GPS,Gap Inc,23.76,9480000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/gps,,0
+64,64,1122,1122,1122,EXR,Extra Space Storage Inc,75.0,9440000000.0,2004.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/exr,,0
+65,65,951,951,951,DRE,Duke Realty Corp,26.57,9420000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dre,,0
+66,66,509,509,509,BIP,Brookfield Infrastructure Partners,35.0,9360000000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/bip,,0
+67,67,1541,1541,1541,IRM,Iron Mountain Inc,34.97,9210000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/irm,,0
+68,68,1503,1503,1503,IHG,Intercontinental Hotels Group,46.33,9120000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/ihg,,0
+69,69,1210,1210,1210,FL,Foot Locker Inc,68.79,9110000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/fl,,0
+70,70,853,853,853,DRI,Darden Restaurants Inc,73.0,9060000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/dri,,0
+71,71,1766,1766,1766,M,Macy's Inc,29.63,9060000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/m,,0
+72,72,77,77,77,ARE,Alexandria Real Estate Equities Inc,113.43,9010000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/are,,0
+73,73,1379,1379,1379,HBI,Hanesbrands Inc,22.53,8520000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/hbi,,0
+74,74,3122,3122,3122,WYN,Wyndham Worldwide Corp,78.61,8470000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wyn,,0
+75,75,2962,2962,2962,VER,VEREIT Inc,8.61,8390000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ver,,0
+76,76,1261,1261,1261,IT,Gartner Inc,100.37,8300000000.0,1993.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/it,,0
+77,77,607,607,607,CNCO,Cencosud,8.62,8170000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/cnco,,0
+78,78,209,209,209,ARMK,Aramark,33.08,8130000000.0,2013.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/armk,,1
+79,79,2024,2024,2024,JWN,Nordstrom Inc,44.41,7700000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/jwn,,0
+80,80,1978,1978,1978,EDU,New Oriental Education & Technology Group,48.19,7590000000.0,2006.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/edu,,0
+81,81,501,501,501,BRX,Brixmor Property Group Inc,24.87,7570000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/brx,,0
+82,82,2395,2395,2395,REG,Regency Centers Corp,71.01,7420000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/reg,,0
+83,83,1634,1634,1634,KRC,Kilroy Realty Corp,75.86,7410000000.0,1997.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/krc,,0
+84,84,547,547,547,CPT,Camden Property Trust,82.85,7250000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cpt,,0
+85,85,1470,1470,1470,H,Hyatt Hotels Corp,54.51,7130000000.0,2009.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/h,,0
+86,86,194,194,194,AIV,Apartment Investment and Management Company,45.16,7090000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/aiv,,0
+87,87,1661,1661,1661,KSS,Kohl's,40.11,7080000000.0,1992.0,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/kss,,0
+88,88,129,129,129,ACC,American Campus Communities Inc,50.78,6710000000.0,2004.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/acc,,0
+89,89,1941,1941,1941,NNN,National Retail Properties,45.51,6700000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nnn,,0
+90,90,2938,2938,2938,MTN,Vail Resorts Inc,166.9,6670000000.0,1997.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/mtn,,0
+91,91,3007,3007,3007,WPC,WP Carey Inc,62.01,6590000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wpc,,0
+92,92,1092,1092,1092,ELS,Equity Lifestyle Properties Inc,74.98,6400000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/els,,0
+93,93,2138,2138,2138,OHI,Omega Healthcare Investors Inc,32.76,6390000000.0,1992.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ohi,,0
+94,94,2698,2698,2698,TAL,TAL Education Group,78.79,6370000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/tal,,0
+95,95,2974,2974,2974,VIPS,Vipshop Holdings,10.75,6340000000.0,2012.0,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/vips,,0
+96,96,1029,1029,1029,ESRT,Empire State Realty Trust Inc,20.53,6330000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/esrt,,0
+97,97,84,84,84,ALLE,Allegion,65.07,6250000000.0,2013.0,Consumer Services,Diversified Commercial Services,http://www.nasdaq.com/symbol/alle,,0
+98,98,2195,2195,2195,PSO,Pearson Plc,7.39,6020000000.0,,Consumer Services,Books,http://www.nasdaq.com/symbol/pso,,0
+99,99,1724,1724,1724,LPT,Liberty Property Trust,40.85,6000000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/lpt,,0
+100,100,2620,2620,2620,STWD,STARWOOD PROPERTY TRUST,22.63,5860000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/stwd,,0
+101,101,524,524,524,BURL,Burlington Stores Inc,82.71,5840000000.0,2013.0,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/burl,,0
+102,102,887,887,887,DKS,Dick's Sporting Goods Inc,51.64,5820000000.0,2002.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/dks,,0
+103,103,919,919,919,DEI,Douglas Emmett Inc,38.44,5820000000.0,2006.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dei,,0
+104,104,2660,2660,2660,SUI,Sun Communities Inc,79.02,5770000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/sui,,0
+105,105,2551,2551,2551,SIG,Signet Jewelers,80.91,5630000000.0,,Consumer Services,Consumer Specialties,http://www.nasdaq.com/symbol/sig,,0
+106,106,2560,2560,2560,SIX,Six Flags Entertainment Corp,60.89,5610000000.0,,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/six,,0
+107,107,1735,1735,1735,LYV,Live Nation Entertainment,27.53,5600000000.0,,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/lyv,,0
+108,108,857,857,857,DDR,DDR Corp,15.19,5560000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ddr,,0
+109,109,1506,1506,1506,IGT,International Game Technology,27.54,5540000000.0,2015.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/igt,,0
+110,110,2539,2539,2539,SCI,Service Corporation International,28.85,5500000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/sci,,0
+111,111,39,39,39,ACM,AECOM,35.31,5440000000.0,2007.0,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/acm,,0
+112,112,477,477,477,BAH,Booz Allen Hamilton Corp,35.52,5310000000.0,2010.0,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/bah,,0
+113,113,1431,1431,1431,HIW,Highwoods Properties Inc,52.89,5300000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hiw,,0
+114,114,2603,2603,2603,SRC,Spirit Realty Capital Inc,10.94,5290000000.0,2013.0,Consumer Services,Building operators,http://www.nasdaq.com/symbol/src,,0
+115,115,139,139,139,AMH,American Homes 4 Rent,21.21,5060000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/amh,,0
+116,116,2540,2540,2540,SERV,ServiceMaster Global,37.53,5060000000.0,2014.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/serv,,0
+117,117,755,755,755,CBD,Companhia Brasileira de Distribuicao,18.71,4970000000.0,1997.0,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/cbd,,0
+118,118,1291,1291,1291,G,Genpact,23.79,4780000000.0,2007.0,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/g,,0
+119,119,1081,1081,1081,EPR,EPR Properties,75.03,4780000000.0,1997.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/epr,,0
+120,120,1372,1372,1372,HRB,H&R Block Inc,22.91,4750000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/hrb,,0
+121,121,3131,3131,3131,XPO,XPO Logistics,42.71,4740000000.0,,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/xpo,,0
+122,122,824,824,824,CUBE,CubeSmart,26.3,4740000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cube,,0
+123,123,669,669,669,CNK,Cinemark Holdings Inc,40.69,4730000000.0,2007.0,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/cnk,,0
+124,124,3039,3039,3039,WRI,Weingarten Realty Investors,36.7,4700000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wri,,0
+125,125,2730,2730,2730,TGNA,TEGNA Inc,21.62,4640000000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/tgna,,0
+126,126,1094,1094,1094,EQY,Equity One Inc,31.79,4610000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqy,,0
+127,127,204,204,204,APLE,Apple Hospitality REIT Inc,20.32,4540000000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/aple,,0
+128,128,156,156,156,APU,AmeriGas Partners LP,48.11,4470000000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/apu,,0
+129,129,856,856,856,DCT,DCT Industrial Trust Inc,48.61,4420000000.0,2006.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dct,,0
+130,130,2707,2707,2707,TCO,Taubman Centers Inc,71.65,4330000000.0,1992.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/tco,,0
+131,131,3108,3108,3108,WSM,Williams-Sonoma,48.46,4260000000.0,,Consumer Services,Home Furnishings,http://www.nasdaq.com/symbol/wsm,,0
+132,132,1402,1402,1402,HTA,Healthcare Trust of America Inc,30.0,4250000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hta,,0
+133,133,1453,1453,1453,HHC,Howard Hughes Corporation,105.33,4200000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hhc,,0
+134,134,1823,1823,1823,MPW,Medical Properties Trust Inc,12.83,4110000000.0,2005.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mpw,,0
+135,135,1980,1980,1980,NRZ,New Residential Investment Corp,16.1,4040000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nrz,,0
+136,136,1916,1916,1916,MSG,MSG Networks Inc,167.51,4010000000.0,2015.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/msg,,0
+137,137,2473,2473,2473,R,Ryder System Inc,74.83,4000000000.0,,Consumer Services,Rental/Leasing Companies,http://www.nasdaq.com/symbol/r,,0
+138,138,2645,2645,2645,STOR,STORE Capital Corp,25.58,3990000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/stor,,0
+139,139,1089,1089,1089,EQC,Equity Commonwealth,31.36,3940000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqc,,0
+140,140,529,529,529,CAB,Cabela's Inc,56.78,3890000000.0,2004.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/cab,,0
+141,141,1725,1725,1725,LSI,Life Storage Inc,83.72,3880000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/lsi,,0
+142,142,1335,1335,1335,GPT,Gramercy Property Trust,27.26,3830000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/gpt,,0
+143,143,121,121,121,AMC,AMC Entertainment Holdings Inc,34.1,3760000000.0,2013.0,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/amc,,0
+144,144,2162,2162,2162,OUT,OUTFRONT Media Inc,26.91,3710000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/out,,0
+145,145,2178,2178,2178,PGRE,Paramount Group Inc,16.72,3700000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pgre,,0
+146,146,2485,2485,2485,SBH,Sally Beauty Holdings Inc,25.25,3620000000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/sbh,,0
+147,147,2423,2423,2423,RPAI,Retail Properties of America Inc,15.22,3610000000.0,2012.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rpai,,0
+148,148,1685,1685,1685,LHO,LaSalle Hotel Properties,30.13,3590000000.0,1998.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/lho,,0
+149,149,598,598,598,FUN,Cedar Fair,63.67,3580000000.0,1987.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/fun,,0
+150,150,1401,1401,1401,HR,Healthcare Realty Trust Inc,30.74,3560000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hr,,0
+151,151,2394,2394,2394,RGC,Regal Entertainment Group,22.65,3550000000.0,2002.0,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/rgc,,0
+152,152,530,530,530,CABO,Cable One Inc,613.43,3500000000.0,2015.0,Consumer Services,Television Services,http://www.nasdaq.com/symbol/cabo,,0
+153,153,1648,1648,1648,KEX,Kirby Corp,63.95,3440000000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/kex,,0
+154,154,3032,3032,3032,W,Wayfair Inc,39.88,3410000000.0,2014.0,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/w,,0
+155,155,2384,2384,2384,RYN,Rayonier Inc,27.54,3380000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ryn,,0
+156,156,803,803,803,CUZ,Cousins Properties Inc,8.58,3380000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cuz,,0
+157,157,2701,2701,2701,SKT,Tanger Factory Outlet Centers,35.07,3370000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/skt,,0
+158,158,784,784,784,CXW,CoreCivic Inc,28.34,3330000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cxw,,0
+159,159,639,639,639,CIM,Chimera Investment Corp,17.63,3310000000.0,2007.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cim,,0
+160,160,1167,1167,1167,FR,First Industrial Realty Trust,28.01,3270000000.0,1994.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/fr,,0
+161,161,3136,3136,3136,YELP,Yelp Inc,41.53,3260000000.0,2012.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/yelp,,0
+162,162,2317,2317,2317,PSB,PS Business Parks Inc,120.27,3260000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/psb,,0
+163,163,2668,2668,2668,SHO,Sunstone Hotel Investors Inc,14.78,3200000000.0,2004.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/sho,,0
+164,164,2475,2475,2475,RHP,Ryman Hospitality Properties Inc,62.57,3190000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rhp,,0
+165,165,2230,2230,2230,PDM,Piedmont Office Realty Trust Inc,21.79,3160000000.0,,Consumer Services,Building operators,http://www.nasdaq.com/symbol/pdm,,0
+166,166,2175,2175,2175,P,Pandora Media,13.47,3140000000.0,2011.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/p,,0
+167,167,1011,1011,1011,EDR,Education Realty Trust Inc,42.57,3110000000.0,2005.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/edr,,0
+168,168,659,659,659,CHH,Choice Hotels International,55.2,3100000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/chh,,0
+169,169,2876,2876,2876,TWO,Two Harbors Investments Corp,8.77,3050000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/two,,0
+170,170,792,792,792,OFC,Corporate Office Properties Trust,31.98,3030000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ofc,,0
+171,171,1294,1294,1294,GEO,Geo Group Inc,40.25,3020000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/geo,,0
+172,172,740,740,740,SFR,Colony Starwood Homes,29.79,3020000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/sfr,,0
+173,173,1938,1938,1938,NHI,National Health Investors Inc,75.42,3010000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nhi,,0
+174,174,2443,2443,2443,RLJ,RLJ Lodging Trust,24.02,2990000000.0,2011.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rlj,,0
+175,175,1120,1120,1120,STAY,Extended Stay America,16.0,2980000000.0,2013.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/stay,,0
+176,176,1850,1850,1850,MFA,MFA Financial Inc,7.94,2950000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mfa,,0
+177,177,788,788,788,COR,CoreSite Realty Corp,86.62,2940000000.0,2010.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cor,,0
+178,178,1334,1334,1334,GHC,Graham Holdings Company,520.95,2920000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/ghc,,0
+179,179,566,566,566,BXMT,Capital Trust Inc,31.14,2920000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bxmt,,0
+180,180,490,490,490,BDN,Brandywine Realty Trust,16.53,2900000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bdn,,0
+181,181,2594,2594,2594,STN,SPDR MSCI Europe Energy UCITS ETF,25.0,2850000000.0,,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/stn,,0
+182,182,731,731,731,CLNS,Colony NorthStar Inc,14.12,2740000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/clns,,0
+183,183,742,742,742,CXP,Columbia Property Trust Inc,21.76,2690000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cxp,,0
+184,184,1436,1436,1436,HGV,Hilton Grand Vacations Inc,27.14,2690000000.0,2016.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/hgv,,0
+185,185,130,130,130,AEO,American Eagle Outfitters,14.74,2680000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/aeo,,0
+186,186,1761,1761,1761,CLI,Mack-Cali Realty Corp,28.99,2600000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cli,,0
+187,187,17,17,17,AKR,Acadia Realty Trust,32.03,2590000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/akr,,0
+188,188,2898,2898,2898,UNF,Unifirst Corp,127.5,2590000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/unf,,0
+189,189,1782,1782,1782,MANU,Manchester United,15.8,2590000000.0,2012.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/manu,,0
+190,190,2229,2229,2229,DOC,Physicians Realty Trust,19.02,2580000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/doc,,0
+191,191,1719,1719,1719,LXP,Lexington Realty Trust,10.76,2550000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/lxp,,0
+192,192,2852,2852,2852,TRCO,Tribune Media Company,28.73,2510000000.0,2014.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/trco,,0
+193,193,978,978,978,EGP,EastGroup Properties Inc,75.77,2490000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/egp,,0
+194,194,597,597,597,CEB,CEB Inc,76.81,2480000000.0,,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/ceb,,0
+195,195,1835,1835,1835,MDP,Meredith Corporation,55.3,2460000000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/mdp,,0
+196,196,2349,2349,2349,QTS,QTS Realty Trust Inc,51.11,2450000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/qts,,0
+197,197,1259,1259,1259,GME,Gamestop Corp,23.93,2440000000.0,2002.0,Consumer Services,Electronics Distribution,http://www.nasdaq.com/symbol/gme,,0
+198,198,2021,2021,2021,NORD,Nord Anglia Education,22.91,2390000000.0,2014.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/nord,,0
+199,199,1265,1265,1265,GATX,GATX Corp,59.19,2360000000.0,,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/gatx,,0
+200,200,497,497,497,EAT,Brinker International,46.84,2330000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/eat,,0
+201,201,883,883,883,DRH,Diamondrock Hospitality Company,11.47,2300000000.0,2005.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/drh,,0
+202,202,122,122,122,AMFW,Amec Plc,5.73,2250000000.0,2014.0,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/amfw,,0
+203,203,76,76,76,ALX,Alexander's Inc,438.57,2240000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/alx,,0
+204,204,484,484,484,BYD,Boyd Gaming Corporation,19.34,2180000000.0,1993.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/byd,,0
+205,205,391,391,391,BIG,Big Lots Inc,48.7,2170000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/big,,0
+206,206,2196,2196,2196,PEB,Pebblebrook Hotel Trust,29.67,2140000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/peb,,0
+207,207,1564,1564,1564,JCP,JC Penney Company,6.85,2110000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/jcp,,0
+208,208,1986,1986,1986,NYT,New York Times Company,13.05,2100000000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/nyt,,0
+209,209,572,572,572,CCP,Care Capital Properties,25.02,2100000000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ccp,,0
+210,210,1162,1162,1162,FCFS,First Cash Inc,43.05,2090000000.0,1991.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/fcfs,,0
+211,211,878,878,878,DV,DeVry Education Group Inc,32.95,2060000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/dv,,0
+212,212,3125,3125,3125,XHR,Xenia Hotels & Resorts Inc,18.84,2010000000.0,2015.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/xhr,,0
+213,213,127,127,127,AAT,American Assets Trust Inc,43.81,2000000000.0,2011.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/aat,,0
+214,214,1649,1649,1649,KRG,Kite Realty Group Trust,23.8,1990000000.0,2004.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/krg,,0
+215,215,2266,2266,2266,PLNT,Planet Fitness Inc,20.0,1980000000.0,2015.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/plnt,,0
+216,216,2919,2919,2919,UVV,Universal Corp,75.45,1910000000.0,,Consumer Services,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/uvv,,0
+217,217,2651,2651,2651,SPH,Suburban Propane Partners,31.19,1900000000.0,1996.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/sph,,0
+218,218,895,895,895,DDS,Dillard's Inc,56.66,1890000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dds,,0
+219,219,1744,1744,1744,LTC,LTC Properties Inc,47.77,1870000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ltc,,0
+220,220,813,813,813,CEQP,Crestwood Equity Partners,27.0,1860000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/ceqp,,0
+221,221,2806,2806,2806,TIME,Time Inc,18.7,1850000000.0,2014.0,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/time,,0
+222,222,2610,2610,2610,STAG,Stag Industrial Inc,24.24,1830000000.0,2011.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/stag,,0
+223,223,3022,3022,3022,WPG,Washington Prime Group Inc,9.78,1810000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wpg,,0
+224,224,1970,1970,1970,NSR,Neustar Inc,33.05,1810000000.0,2005.0,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/nsr,,0
+225,225,587,587,587,CBL,CBL & Associates Properties,10.47,1790000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cbl,,0
+226,226,1235,1235,1235,FCN,FTI Consulting Inc,41.47,1760000000.0,,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/fcn,,0
+227,227,894,894,894,DGI,DigitalGlobe Inc,28.35,1760000000.0,2009.0,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/dgi,,0
+228,228,1422,1422,1422,HTZ,Hertz Global Holdings Inc,20.93,1740000000.0,2016.0,Consumer Services,Rental/Leasing Companies,http://www.nasdaq.com/symbol/htz,,0
+229,229,692,692,692,CCO,Clear Channel Outdoor Holdings Inc,4.8,1740000000.0,2005.0,Consumer Services,Advertising,http://www.nasdaq.com/symbol/cco,,0
+230,230,1889,1889,1889,MORE,Monogram Residential Trust,10.36,1730000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/more,,0
+231,231,2839,2839,2839,TVPT,Travelport Worldwide,13.9,1720000000.0,2014.0,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/tvpt,,0
+232,232,2189,2189,2189,PRTY,Party City,14.35,1710000000.0,2015.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/prty,,0
+233,233,638,638,638,CHS,Chico's FAS,13.15,1700000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/chs,,0
+234,234,3040,3040,3040,WMK,Weis Markets Inc,62.87,1690000000.0,,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/wmk,,0
+235,235,2527,2527,2527,SEAS,SeaWorld Entertainment,18.74,1670000000.0,2013.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/seas,,0
+236,236,1985,1985,1985,NYRT,New York REIT Inc,10.03,1660000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nyrt,,0
+237,237,1523,1523,1523,IVR,INVESCO MORTGAGE CAPITAL,14.82,1650000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ivr,,0
+238,238,1917,1917,1917,MSGN,MSG Networks Inc,21.9,1640000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/msgn,,0
+239,239,1677,1677,1677,LQ,La Quinta Holdings Inc,13.98,1630000000.0,2014.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/lq,,0
+240,240,937,937,937,DSW,DSW Inc,20.26,1620000000.0,2005.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/dsw,,0
+241,241,2427,2427,2427,REXR,Rexford Industrial Realty,23.99,1580000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rexr,,0
+242,242,633,633,633,CHSP,Chesapeake Lodging Trust,25.52,1530000000.0,2010.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/chsp,,0
+243,243,1679,1679,1679,LADR,Ladder Capital Corp,13.95,1530000000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ladr,,0
+244,244,1806,1806,1806,MATX,Matson Inc,35.55,1520000000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/matx,,0
+245,245,970,970,970,SSP,EW Scripps Company,18.24,1510000000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/ssp,,0
+246,246,2352,2352,2352,QCP,Quality Care Properties Inc,15.87,1490000000.0,2016.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/qcp,,0
+247,247,3118,3118,3118,WWE,World Wrestling Entertainment Inc,19.29,1470000000.0,,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/wwe,,0
+248,248,1861,1861,1861,MGP,MGM Growth Properties,25.05,1440000000.0,2016.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mgp,,0
+249,249,2723,2723,2723,TGP,Teekay LNG Partners,17.6,1400000000.0,2005.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/tgp,,0
+250,250,196,196,196,ARI,Apollo Commercial Real Estate Finance,17.16,1390000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ari,,0
+251,251,2654,2654,2654,INN,Summit Hotel Properties Inc,15.95,1390000000.0,2011.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/inn,,0
+252,252,2499,2499,2499,BFS,Saul Centers Inc,65.16,1390000000.0,1993.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bfs,,0
+253,253,381,381,381,BEL,Belmond,13.6,1380000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/bel,,0
+254,254,1262,1262,1262,GLOG,GasLog,16.9,1360000000.0,2012.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/glog,,0
+255,255,1306,1306,1306,GNL,Global Net Lease Inc,7.76,1320000000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/gnl,,0
+256,256,897,897,897,DIN,DineEquity Inc,72.28,1310000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/din,,0
+257,257,2377,2377,2377,RPT,Ramco-Gershenson Properties Trust,16.18,1280000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rpt,,0
+258,258,2203,2203,2203,PEI,Pennsylvania Real Estate Investment Trust,18.2,1270000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pei,,0
+259,259,1223,1223,1223,FCPT,Four Corners Property Trust Inc,21.13,1270000000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/fcpt,,0
+260,260,2609,2609,2609,JOE,St Joe Company,16.9,1260000000.0,,Consumer Services,Homebuilding,http://www.nasdaq.com/symbol/joe,,0
+261,261,2542,2542,2542,SHAK,Shake Shack Inc,34.49,1250000000.0,2015.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/shak,,0
+262,262,1114,1114,1114,EVH,Evolent Health Inc,18.45,1250000000.0,2015.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/evh,,0
+263,263,1313,1313,1313,GMS,GMS Inc,29.49,1210000000.0,2016.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/gms,,0
+264,264,60,60,60,ADC,Agree Realty Corporation,46.69,1210000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/adc,,0
+265,265,224,224,224,ARCO,Arcos Dorados Holdings Inc,5.7,1200000000.0,2011.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/arco,,0
+266,266,844,844,844,CYS,CYS Investments Inc,7.94,1200000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cys,,0
+267,267,1542,1542,1542,IRS,IRSA Inversiones Y Representaciones,20.69,1200000000.0,,Consumer Services,Homebuilding,http://www.nasdaq.com/symbol/irs,,0
+268,268,1285,1285,1285,GCO,Genesco Inc,60.2,1200000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/gco,,0
+269,269,2392,2392,2392,RWT,Redwood Trust Inc,15.68,1200000000.0,1995.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rwt,,0
+270,270,2432,2432,2432,RH,RH,28.82,1180000000.0,2012.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/rh,,0
+271,271,1954,1954,1954,NCI,Navigant Consulting Inc,24.9,1170000000.0,,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/nci,,0
+272,272,2207,2207,2207,PMT,PennyMac Mortgage Investment Trust,17.11,1140000000.0,2009.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pmt,,0
+273,273,1051,1051,1051,EGL,Engility Holdings Inc,30.85,1130000000.0,2015.0,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/egl,,0
+274,274,2729,2729,2729,GCI,TEGNA Inc,9.5,1110000000.0,2015.0,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/gci,,0
+275,275,1427,1427,1427,HF,HFF Inc,28.53,1090000000.0,2007.0,Consumer Services,Real Estate,http://www.nasdaq.com/symbol/hf,,0
+276,276,701,701,701,MYCC,ClubCorp Holdings Inc,16.55,1080000000.0,2013.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mycc,,0
+277,277,2567,2567,2567,SFS,Smart,14.75,1070000000.0,2014.0,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/sfs,,0
+278,278,1886,1886,1886,MNR,Monmouth Real Estate Investment Corp,15.15,1060000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mnr,,0
+279,279,568,568,568,CMO,Capstead Mortgage Corp,10.93,1050000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cmo,,0
+280,280,1146,1146,1146,FCH,FelCor Lodging Trust Inc,7.53,1040000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/fch,,0
+281,281,520,520,520,BKE,Buckle Inc,20.95,1020000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/bke,,0
+282,282,2719,2719,2719,TISI,Team Inc,34.0,1000000000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/tisi,,0
+283,283,2695,2695,2695,TLRD,Tailored Brands Inc,20.29,989020000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/tlrd,,0
+284,284,1946,1946,1946,NSA,National Storage Affiliates Trust,22.79,966770000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nsa,,0
+285,285,392,392,392,BH,Biglari Holdings Inc,466.27,963760000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/bh,,0
+286,286,2359,2359,2359,QUOT,Quotient Technology Inc,10.55,928640000.0,2014.0,Consumer Services,Advertising,http://www.nasdaq.com/symbol/quot,,0
+287,287,275,275,275,HOME,At Home Group Inc,15.34,926030000.0,2016.0,Consumer Services,Home Furnishings,http://www.nasdaq.com/symbol/home,,0
+288,288,474,474,474,BCC,Boise Cascade,23.5,910650000.0,2013.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/bcc,,0
+289,289,2926,2926,2926,UBA,Urstadt Biddle Properties Inc,23.15,906070000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/uba,,0
+290,290,1380,1380,1380,HASI,Hannon Armstrong Sustainable Infrastructure Capital,19.14,906050000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hasi,,0
+291,291,2965,2965,2965,VRTV,Veritiv Crop,56.2,899260000.0,2014.0,Consumer Services,Paper,http://www.nasdaq.com/symbol/vrtv,,0
+292,292,2600,2600,2600,TRK,Speedway Motorsports Inc,21.66,889760000.0,1995.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/trk,,0
+293,293,2920,2920,2920,UHT,Universal Health Realty Income Trust,64.97,883470000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/uht,,0
+294,294,2023,2023,2023,NAT,Nordic American Tankers,8.57,873880000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/nat,,0
+295,295,2802,2802,2802,TIER,TIER REIT,18.17,867480000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/tier,,0
+296,296,2725,2725,2725,TOO,Teekay Offshore Partners,5.96,865180000.0,2006.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/too,,0
+297,297,1417,1417,1417,HT,Hersha Hospitality Trust,20.34,851030000.0,1999.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ht,,0
+298,298,1791,1791,1791,MCS,Marcus Corporation,30.65,846910000.0,,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/mcs,,0
+299,299,1981,1981,1981,SNR,New Senior Investment Group,10.27,843450000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/snr,,0
+300,300,1537,1537,1537,IRET,Investors Real Estate Trust,6.92,842500000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/iret,,0
+301,301,1544,1544,1544,STAR,iStar Financial Inc,11.72,834190000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/star,,0
+302,302,1513,1513,1513,SNOW,Intrawest Resorts Holdings Inc,20.93,832390000.0,2014.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/snow,,0
+303,303,1119,1119,1119,EXPR,Express Inc,10.52,832130000.0,2010.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/expr,,0
+304,304,1976,1976,1976,NEWM,New Media Investment Group Inc,15.26,816360000.0,2014.0,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/newm,,0
+305,305,623,623,623,CLDT,Chatham Lodging Trust,20.94,803390000.0,2010.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cldt,,0
+306,306,238,238,238,ARR,ARMOUR Residential REIT,21.75,799460000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/arr,,0
+307,307,1659,1659,1659,KNOP,KNOT Offshore Partners,22.15,792120000.0,2013.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/knop,,0
+308,308,12,12,12,ANF,Abercrombie & Fitch,11.66,789090000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/anf,,0
+309,309,1341,1341,1341,GTN,Gray Television Inc,10.85,788690000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/gtn,,0
+310,310,361,361,361,BKS,Barnes & Noble,10.65,774070000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/bks,,0
+311,311,1264,1264,1264,GLOP,GasLog Partners,22.05,758400000.0,2014.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/glop,,0
+312,312,1149,1149,1149,FGP,Ferrellgas Partners,7.77,754880000.0,1994.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/fgp,,0
+313,313,914,914,914,DFIN,Donnelley Financial Solutions,23.03,750780000.0,2016.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/dfin,,0
+314,314,3038,3038,3038,WTW,Weight Watchers International,11.69,746710000.0,2001.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/wtw,,0
+315,315,1485,1485,1485,HIFR,InfraREIT,17.02,744950000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hifr,,0
+316,316,250,250,250,AHT,Ashford Hospitality Trust Inc,7.68,738650000.0,2003.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/aht,,0
+317,317,585,585,585,CATO,Cato Corporation,26.55,712700000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/cato,,0
+318,318,977,977,977,DEA,Easterly Government Properties Inc,20.06,709620000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dea,,0
+319,319,1013,1013,1013,EHIC,eHi Car Services,10.22,709240000.0,2014.0,Consumer Services,Rental/Leasing Companies,http://www.nasdaq.com/symbol/ehic,,0
+320,320,2180,2180,2180,PK,Park Hotels & Resorts,26.0,704600000.0,2016.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/pk,,0
+321,321,2927,2927,2927,UBP,Urstadt Biddle Properties,17.9,700590000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ubp,,0
+322,322,1098,1098,1098,EROS,Eros International,11.45,691890000.0,2013.0,Consumer Services,Movies/Entertainment,http://www.nasdaq.com/symbol/eros,,0
+323,323,2031,2031,2031,NRE,NorthStar Realty Europe,12.24,685830000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nre,,0
+324,324,1873,1873,1873,MG,Mistras Group Inc,23.05,672720000.0,2009.0,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/mg,,0
+325,325,1600,1600,1600,LRN,K12 Inc,16.54,672490000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/lrn,,0
+326,326,625,625,625,CHGG,Chegg Inc,7.23,660440000.0,2013.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/chgg,,0
+327,327,2402,2402,2402,RGS,Regis Corp,14.26,659790000.0,1991.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/rgs,,0
+328,328,1627,1627,1627,KEN,Kenon Holdings,12.15,652380000.0,2015.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/ken,,0
+329,329,1169,1169,1169,FPO,First Potomac Realty Trust,10.74,626300000.0,2003.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/fpo,,0
+330,330,2231,2231,2231,PIR,Pier 1 Imports,7.51,623590000.0,,Consumer Services,Home Furnishings,http://www.nasdaq.com/symbol/pir,,0
+331,331,1596,1596,1596,JMEI,Jumei International Holding,4.23,620260000.0,2014.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/jmei,,0
+332,332,506,506,506,BOXC,Brookfield Canada Office Properties,23.423,618500000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/boxc,,0
+333,333,2618,2618,2618,SGU,Star Gas Partners,11.02,615880000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/sgu,,0
+334,334,2552,2552,2552,SBY,Silver Bay Realty Trust Corp,16.9,597920000.0,2012.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/sby,,0
+335,335,957,957,957,DLNG,Dynagas LNG Partners,16.58,588420000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/dlng,,0
+336,336,1059,1059,1059,ETM,Entercom Communications Corp,14.2,576670000.0,1999.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/etm,,0
+337,337,2,2,2,WBAI,500.com,13.48,559390000.0,2013.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/wbai,,0
+338,338,599,599,599,CDR,Cedar Realty Trust Inc,6.24,532350000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cdr,,0
+339,339,494,494,494,BPI,Bridgepoint Education Inc,11.27,522210000.0,2009.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/bpi,,0
+340,340,3130,3130,3130,XOXO,XO Group Inc,19.15,506710000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/xoxo,,0
+341,341,188,188,188,ANH,Anworth Mortgage Asset  Corp,5.23,500580000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/anh,,0
+342,342,1439,1439,1439,HMLP,Hoegh LNG Partners,19.0,500130000.0,2014.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/hmlp,,0
+343,343,1508,1508,1508,INSW,International Seaways Inc,17.09,498300000.0,1999.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/insw,,0
+344,344,1993,1993,1993,NXRT,NexPoint Residential Trust Inc,23.48,494500000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nxrt,,0
+345,345,360,360,360,BNED,Barnes & Noble Education Inc,10.61,490990000.0,2015.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/bned,,0
+346,346,1391,1391,1391,HVT,Haverty Furniture Companies Inc,22.7,479070000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/hvt,,0
+347,347,1795,1795,1795,HZO,MarineMax Inc,18.2,474590000.0,1998.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/hzo,,0
+348,348,1072,1072,1072,EVC,Entravision Communications Corp,5.1,457380000.0,2000.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/evc,,0
+349,349,579,579,579,CSV,Carriage Services Inc,26.6,441850000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/csv,,0
+350,350,1055,1055,1055,EBF,Ennis Inc,17.0,434770000.0,,Consumer Services,Office Equipment/Supplies/Services,http://www.nasdaq.com/symbol/ebf,,0
+351,351,2145,2145,2145,OLP,One Liberty Properties Inc,24.47,433860000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/olp,,0
+352,352,1331,1331,1331,GPX,GP Strategies Corp,26.0,433850000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/gpx,,0
+353,353,2643,2643,2643,STON,StoneMor Partners,11.41,432020000.0,2004.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/ston,,0
+354,354,786,786,786,CORR,CorEnergy Infrastructure Trust Inc,36.15,429330000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/corr,,0
+355,355,3076,3076,3076,WMC,Western Asset Mortgage Capital Corp,10.14,425070000.0,2012.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wmc,,0
+356,356,1746,1746,1746,LL,Lumber Liquidators Holdings,15.39,419340000.0,2007.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/ll,,0
+357,357,2892,2892,2892,UMH,UMH Properties Inc,14.6,418570000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/umh,,0
+358,358,3152,3152,3152,ZOES,Zoe's Kitchen Inc,21.36,415680000.0,2014.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/zoes,,0
+359,359,583,583,583,CTT,CatchMark Timber Trust Inc,10.52,408510000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ctt,,0
+360,360,3101,3101,3101,WSR,Whitestone REIT,13.86,405450000.0,2010.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wsr,,0
+361,361,2679,2679,2679,SLD,Sutherland Asset Management Corp,13.25,404410000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/sld,,0
+362,362,228,228,228,ACRE,Ares Commercial Real Estate Corp,13.64,388500000.0,2012.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/acre,,0
+363,363,210,210,210,ABR,Arbor Realty Trust,7.53,387050000.0,2004.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/abr,,0
+364,364,2155,2155,2155,ORC,Orchid Island Capital Inc,11.79,376850000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/orc,,0
+365,365,2289,2289,2289,APTS,Preferred Apartment Communities Inc,13.97,370400000.0,2011.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/apts,,0
+366,366,248,248,248,AHP,Ashford Hospitality Prime Inc,14.12,366690000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ahp,,0
+367,367,2728,2728,2728,TNK,Teekay Tankers,2.33,364180000.0,2007.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/tnk,,0
+368,368,1822,1822,1822,MRT,MedEquities Realty Trust Inc,11.35,359620000.0,2016.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/mrt,,0
+369,369,2804,2804,2804,TLYS,Tilly's Inc,12.25,349750000.0,2012.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/tlys,,0
+370,370,1501,1501,1501,I,Intelsat,2.95,347510000.0,2013.0,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/i,,0
+371,371,2370,2370,2370,RAS,RAIT Financial Trust,3.71,341980000.0,1998.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ras,,0
+372,372,541,541,541,CALX,Calix Inc,7.0,341520000.0,2010.0,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/calx,,0
+373,373,643,643,643,DL,China Distance Education Holdings,10.31,339530000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/dl,,0
+374,374,963,963,963,DX,Dynex Capital Inc,6.78,333240000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dx,,0
+375,375,2692,2692,2692,SYX,Systemax Inc,8.94,330010000.0,,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/syx,,0
+376,376,685,685,685,CIO,City Office REIT Inc,12.89,314290000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cio,,0
+377,377,2840,2840,2840,TRR,TRC Companies Inc,9.75,306050000.0,,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/trr,,0
+378,378,476,476,476,BOOT,Boot Barn,11.5,304600000.0,2014.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/boot,,0
+379,379,1950,1950,1950,NGVC,Natural Grocers by Vitamin Cottage,13.25,297510000.0,2012.0,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/ngvc,,0
+380,380,752,752,752,CHCT,Community Healthcare Trust Inc,22.45,291590000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/chct,,0
+381,381,650,650,650,COE,China Online Education Group,14.49,290170000.0,2016.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/coe,,0
+382,382,1432,1432,1432,HIL,Hill International Inc,5.5,284720000.0,,Consumer Services,Military/Government/Technical,http://www.nasdaq.com/symbol/hil,,0
+383,383,687,687,687,CVEO,Civeo Corp,2.58,278890000.0,2014.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/cveo,,0
+384,384,932,932,932,DS,Drive Shack Inc,3.99,266270000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ds,,0
+385,385,1598,1598,1598,JP,Jupai Holdings,8.72,261000000.0,2015.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/jp,,0
+386,386,2418,2418,2418,RSO,Resource Capital Corp,8.37,260000000.0,2006.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/rso,,0
+387,387,1343,1343,1343,AJX,Great Ajax Corp,13.29,249110000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ajx,,0
+388,388,2228,2228,2228,FENG,Phoenix New Media,3.49,248950000.0,2011.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/feng,,0
+389,389,2957,2957,2957,VEC,Vectrus Inc,22.93,247070000.0,2014.0,Consumer Services,Diversified Commercial Services,http://www.nasdaq.com/symbol/vec,,0
+390,390,774,774,774,TCS,Container Store,5.08,246830000.0,2013.0,Consumer Services,Home Furnishings,http://www.nasdaq.com/symbol/tcs,,0
+391,391,1449,1449,1449,HOS,Hornbeck Offshore Services,6.74,245160000.0,2004.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/hos,,0
+392,392,1225,1225,1225,FC,Franklin Covey Company,17.65,243590000.0,,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/fc,,0
+393,393,573,573,573,CRCM,Care.com Inc,8.41,242370000.0,2014.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/crcm,,0
+394,394,821,821,821,CSS,CSS Industries Inc,25.4,230580000.0,,Consumer Services,Consumer: Greeting Cards,http://www.nasdaq.com/symbol/css,,0
+395,395,215,215,215,ARC,ARC Document Solutions Inc,4.95,227570000.0,2004.0,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/arc,,0
+396,396,1727,1727,1727,LITB,LightInTheBox Holding Co,2.96,220670000.0,2013.0,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/litb,,0
+397,397,2828,2828,2828,TSQ,Townsquare Media Inc,10.44,192040000.0,2014.0,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/tsq,,0
+398,398,1131,1131,1131,FPI,Farmland Partners Inc,10.87,188610000.0,2014.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/fpi,,0
+399,399,522,522,522,BBW,Build-A-Bear Workshop,11.8,187040000.0,2004.0,Consumer Services,Recreational Products/Toys,http://www.nasdaq.com/symbol/bbw,,0
+400,400,91,91,91,AOI,Alliance One International Inc,18.35,178490000.0,,Consumer Services,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/aoi,,0
+401,401,1571,1571,1571,JCAP,Jernigan Capital Inc,20.59,177280000.0,2015.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/jcap,,0
+402,402,1698,1698,1698,LEE,Lee Enterprises Inc,3.1,172240000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/lee,,0
+403,403,2391,2391,2391,RLH,Red Lion Hotels Corp,8.15,170610000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/rlh,,0
+404,404,1305,1305,1305,GMRE,Global Medical REIT Inc,8.82,155280000.0,2016.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/gmre,,0
+405,405,2973,2973,2973,VNCE,Vince Holding Corp,3.0,148260000.0,2013.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/vnce,,0
+406,406,4,4,4,AHC,A.H. Belo Corp,6.5,140900000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/ahc,,0
+407,407,1563,1563,1563,JAX,J Alexander's Holdings,9.5,139650000.0,2015.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/jax,,0
+408,408,629,629,629,CHMI,Cherry Hill Mortgage Investment Corp,18.29,137640000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/chmi,,0
+409,409,1982,1982,1982,NWY,New York & Company Inc,2.1,135340000.0,2004.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/nwy,,0
+410,410,2471,2471,2471,RT,Ruby Tuesday Inc,2.04,123570000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/rt,,0
+411,411,1020,1020,1020,EARN,Ellington Residential Mortgage REIT,13.27,121120000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/earn,,0
+412,412,516,516,516,BRT,BRT Realty Trust,8.55,118840000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/brt,,0
+413,413,2833,2833,2833,TCI,Transcontinental Realty Investors Inc,13.47,117430000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/tci,,0
+414,414,1745,1745,1745,LUB,Luby's Inc,3.91,113240000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/lub,,0
+415,415,258,258,258,ASPN,Aspen Aerogels Inc,4.36,101880000.0,2014.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/aspn,,0
+416,416,2801,2801,2801,TDW,Tidewater Inc,2.11,99310000.0,,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/tdw,,0
+417,417,1811,1811,1811,MNI,McClatchy Company,12.15,92040000.0,1988.0,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/mni,,0
+418,418,1194,1194,1194,OAKS,Five Oaks Investment Corp,5.24,91910000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/oaks,,0
+419,419,2613,2613,2613,SSI,Stage Stores Inc,3.19,86660000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/ssi,,0
+420,420,922,922,922,DVD,Dover Motorsports Inc,2.3,84650000.0,1996.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/dvd,,0
+421,421,2923,2923,2923,UTI,Universal Technical Institute Inc,3.27,80520000.0,2003.0,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/uti,,0
+422,422,164,164,164,AXR,AMREP Corp,7.0,56550000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/axr,,0
+423,423,660,660,660,CBK,Christopher & Banks Corp,1.31,49000000.0,,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/cbk,,0
+424,424,921,921,921,DDE,Dover Downs Gaming & Entertainment Inc,1.07,35330000.0,,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/dde,,0
+425,425,20,20,20,ATV,Acorn International Inc,9.03,34550000.0,2007.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/atv,,0
+426,426,1428,1428,1428,HGG,HHGregg Inc,0.68,18910000.0,2007.0,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/hgg,,0
+427,427,127,127,127,AMZN,Amazon.com Inc,817.88,3.8863e+11,1997.0,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/amzn,,0
+428,428,654,654,654,CMCSA,Comcast Corp,73.26,1.753e+11,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/cmcsa,,0
+429,429,2669,2669,2669,SBUX,Starbucks Corp,57.76,84060000000.0,1992.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/sbux,,0
+430,430,557,557,557,CHTR,Charter Communications Inc,308.7,82980000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/chtr,,0
+431,431,708,708,708,COST,Costco Wholesale Corp,163.01,71600000000.0,,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/cost,,0
+432,432,1995,1995,1995,NFLX,Netflix Inc,137.39,58960000000.0,2002.0,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/nflx,,0
+433,433,2894,2894,2894,FOX,Twenty-First Century Fox Inc,29.51,54750000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/fox,,0
+434,434,1604,1604,1604,JD,JD.com Inc,28.18,40030000000.0,2014.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/jd,,0
+435,435,2895,2895,2895,FOXA,Twenty-First Century Fox Inc,30.0,36630000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/foxa,,0
+436,436,1814,1814,1814,MAR,Marriott International,84.37,32940000000.0,,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mar,,0
+437,437,1710,1710,1710,LBTYA,Liberty Global plc,34.93,31660000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbtya,,0
+438,438,1712,1712,1712,LBTYK,Liberty Global plc,33.75,30590000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbtyk,,0
+439,439,1711,1711,1711,LBTYB,Liberty Global plc,33.45,30320000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbtyb,,0
+440,440,821,821,821,DISH,DISH Network Corp,61.46,28580000000.0,1995.0,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dish,,0
+441,441,927,927,927,EQIX,Equinix Inc,385.35,27510000000.0,2000.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqix,,0
+442,442,2480,2480,2480,ROST,Ross Stores Inc,65.11,25660000000.0,1985.0,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/rost,,0
+443,443,2123,2123,2123,ORLY,O'Reilly Automotive Inc,264.99,25030000000.0,1993.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/orly,,0
+444,444,2599,2599,2599,SIRI,Sirius XM Holdings Inc,4.59,22150000000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/siri,,0
+445,445,2191,2191,2191,PAYX,Paychex Inc,61.11,21930000000.0,1983.0,Consumer Services,Diversified Commercial Services,http://www.nasdaq.com/symbol/payx,,0
+446,446,955,955,955,EXPE,Expedia Inc,119.99,18000000000.0,,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/expe,,0
+447,447,827,827,827,DLTR,Dollar Tree Inc,75.55,17840000000.0,1995.0,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dltr,,0
+448,448,3009,3009,3009,VIA,Viacom Inc,44.1,17500000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/via,,0
+449,449,2904,2904,2904,ULTA,Ulta Salon Cosmetics & Fragrance Inc,266.02,16560000000.0,2007.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/ulta,,0
+450,450,974,974,974,FAST,Fastenal Co,50.98,14730000000.0,1987.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/fast,,0
+451,451,1707,1707,1707,LBRDK,Liberty Broadband Corp,79.29,14410000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbrdk,,0
+452,452,1706,1706,1706,LBRDA,Liberty Broadband Corp,78.09,14190000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbrda,,0
+453,453,3010,3010,3010,VIAB,Viacom Inc,40.32,14010000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/viab,,0
+454,454,2517,2517,2517,SBAC,SBA Communications Corp,104.84,13010000000.0,1999.0,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/sbac,,0
+455,455,1725,1725,1725,LSXMK,Liberty Media Corp,34.86,11680000000.0,,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/lsxmk,,0
+456,456,818,818,818,DISCA,Discovery Communications Inc,28.27,11110000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/disca,,0
+457,457,819,819,819,DISCB,Discovery Communications Inc,27.7,10890000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/discb,,0
+458,458,820,820,820,DISCK,Discovery Communications Inc,27.58,10840000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/disck,,0
+459,459,2040,2040,2040,NCLH,Norwegian Cruise Line Holdings,46.0,10450000000.0,2013.0,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/nclh,,0
+460,460,2856,2856,2856,TSCO,Tractor Supply Co,74.71,9810000000.0,1994.0,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/tsco,,0
+461,461,1753,1753,1753,LKQ,LKQ Corporation,31.66,9740000000.0,,Consumer Services,Motor Vehicles,http://www.nasdaq.com/symbol/lkq,,0
+462,462,3092,3092,3092,WFM,Whole Foods Market Inc,30.36,9670000000.0,,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/wfm,,0
+463,463,2524,2524,2524,SNI,Scripps Networks Interactive Inc,74.63,9640000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sni,,0
+464,464,3140,3140,3140,WYNN,Wynn Resorts Limited,92.64,9430000000.0,2002.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wynn,,0
+465,465,1718,1718,1718,QVCB,Liberty Interactive Corp,19.4,9060000000.0,,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/qvcb,,0
+466,466,1717,1717,1717,QVCA,Liberty Interactive Corp,18.85,8800000000.0,,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/qvca,,0
+467,467,73,73,73,AGNCB,AGNC Investment Corp,25.26,8750000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/agncb,,0
+468,468,1334,1334,1334,HDS,HD Supply Holdings Inc,41.87,8430000000.0,2013.0,Consumer Services,Office Equipment/Supplies/Services,http://www.nasdaq.com/symbol/hds,,0
+469,469,511,511,511,CDW,CDW Corp,51.45,8260000000.0,2013.0,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/cdw,,0
+470,470,1848,1848,1848,MPEL,Melco Crown Entertainment,16.69,8210000000.0,2006.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mpel,,0
+471,471,135,135,135,UHAL,Amerco,372.96,7310000000.0,,Consumer Services,Rental/Leasing Companies,http://www.nasdaq.com/symbol/uhal,,0
+472,472,1672,1672,1672,LAMR,Lamar Advertising Co,74.94,7290000000.0,1996.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/lamr,,0
+473,473,2009,2009,2009,NWS,News Corp,12.4,7210000000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/nws,,0
+474,474,2010,2010,2010,NWSA,News Corp,11.96,6950000000.0,,Consumer Services,Newspapers/Magazines,http://www.nasdaq.com/symbol/nwsa,,0
+475,475,1186,1186,1186,GLPI,Gaming and Leisure Properties Inc,31.19,6460000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/glpi,,0
+476,476,72,72,72,AGNC,AGNC Investment Corp,19.1,6320000000.0,2008.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/agnc,,0
+477,477,331,331,331,BBBY,Bed Bath & Beyond Inc,39.97,6010000000.0,1992.0,Consumer Services,Home Furnishings,http://www.nasdaq.com/symbol/bbby,,0
+478,478,2666,2666,2666,SPLS,Staples Inc,9.06,5890000000.0,1989.0,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/spls,,0
+479,479,1411,1411,1411,IAC,InterActiveCorp,69.95,5550000000.0,,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/iac,,0
+480,480,1384,1384,1384,HPT,Hospitality Properties Trust,31.15,5120000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hpt,,0
+481,481,2169,2169,2169,PNRA,Panera Bread Co,216.06,5020000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/pnra,,0
+482,482,839,839,839,DNKN,Dunkin' Brands Group,51.44,4720000000.0,2011.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/dnkn,,0
+483,483,2551,2551,2551,SNH,Senior Housing Properties Trust,19.2,4560000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/snh,,0
+484,484,2815,2815,2815,MIK,The Michaels Companies Inc,21.64,4430000000.0,2014.0,Consumer Services,Recreational Products/Toys,http://www.nasdaq.com/symbol/mik,,0
+485,485,761,761,761,CONE,CyrusOne Inc,50.46,4210000000.0,2013.0,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cone,,0
+486,486,662,662,662,CSAL,Communications Sales & Leasing,26.53,4130000000.0,,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/csal,,0
+487,487,1933,1933,1933,MSG,MSG Networks Inc,167.51,4010000000.0,2015.0,Consumer Services,Services-Misc. Amusement & Recreation,http://www.nasdaq.com/symbol/msg,,0
+488,488,131,131,131,AMCX,AMC Networks Inc,56.68,3990000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/amcx,,0
+489,489,1713,1713,1713,LILA,Liberty Global plc,22.64,3940000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lila,,0
+490,490,1714,1714,1714,LILAK,Liberty Global plc,21.89,3810000000.0,,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lilak,,0
+491,491,719,719,719,CBRL,Cracker Barrel Old Country Store Inc,157.63,3790000000.0,1981.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/cbrl,,0
+492,492,1715,1715,1715,LVNTA,Liberty Interactive Corp,41.47,3540000000.0,,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/lvnta,,0
+493,493,1592,1592,1592,JACK,Jack In The Box Inc,108.19,3500000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/jack,,0
+494,494,3072,3072,3072,WEN,Wendy's Company,13.58,3340000000.0,,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/wen,,0
+495,495,1716,1716,1716,LVNTB,Liberty Interactive Corp,38.6086,3300000000.0,,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/lvntb,,0
+496,496,2785,2785,2785,TXRH,Texas Roadhouse Inc,46.22,3260000000.0,2004.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/txrh,,0
+497,497,280,280,280,CAR,Avis Budget Group Inc,36.67,3220000000.0,,Consumer Services,Rental/Leasing Companies,http://www.nasdaq.com/symbol/car,,0
+498,498,582,582,582,HTHT,China Lodging Group,50.42,3160000000.0,2010.0,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/htht,,0
+499,499,2171,2171,2171,PZZA,Papa John's International Inc,84.13,3100000000.0,1993.0,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/pzza,,0
