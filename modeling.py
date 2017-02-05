@@ -1,94 +1,184 @@
 import pandas as pd
 import numpy as np
+import cPickle as pickle
+from sklearn.decomposition import NMF, TruncatedSVD, PCA
+from sklearn.metrics.pairwise import cosine_similarity
+from scipy.spatial.distance import jaccard
+from sklearn.feature_extraction.text import TfidfTransformer
 
 
-def build_cooccur_obs_and_corr_matrices(filepath_to_sector):
+
+# Various tools for tansforming representations of data
+
+def cooccurrence_train_to_pmi(cooccur):
     """
-    Takes: filepath to directory for a specific sector containing cleaned co-occurrence and correlation data, saved as cooccur.csv and corr.csv
+    Takes: cooccurrence matrix
 
-    Returns: cleand co-occurrence and correlation dataframes with columns 'ipo', 'compare', and 'value' corresponding to datapoints where ipo != compare, and missing values are imputed as 0.
+    Returns: matrix of pointwise mutual information values
+
+    Note: PMI is calculated as p(row, column)/(p(row)*p(column))
     """
-    corr = pd.read_csv(filepath_to_sector+'/corr_clean.csv', usecols=[1, 2, 3])
-    cooccur = pd.read_csv(filepath_to_sector+'/cooccur_clean.csv', usecols=[1, 2, 3])
-
-    # Force value column from string (as read in by read_csv) to float
-    corr['value'].astype(float, inplace=True)
-    cooccur['value'].astype(float, inplace=True)
-
-
-    # Fill missing values with 0's
-    cooccur.fillna(0, inplace=True)
-    corr.fillna(0, inplace=True)
+    pmi = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
+    for row in pmi.index:
+        for column in pmi.columns.values:
+            tot = cooccur.sum().sum()
+            rowsum = cooccur.ix[row].sum()
+            colsum = cooccur.ix[column].sum()
+            pmi.ix[row, column] = float(exp.ix[row, column]*tot)/(rowsum*colsum)
+    return pmi
 
 
-    # Drop datapoints where ipo and compare are the same
-    to_drop = []
-    for row_index in cooccur.index:
-        if cooccur.iloc[row_index].ipo == cooccur.iloc[row_index].compare:
-            to_drop.append(row_index)
-    cooccur.drop(to_drop, inplace=True)
-
-    to_drop2 = []
-    for row_index in corr.index:
-        if corr.iloc[row_index].ipo == corr.iloc[row_index].compare:
-            to_drop2.append(row_index)
-    corr.drop(to_drop2, inplace=True)
-
-    return cooccur, corr
-
-
-
-
-def build_cooccur_exp_matrix(cooccur):
+def coocurrence_test_to_pmi(cooccur_train, cooccur_test):
     """
-    Takes: observed cooccurrence matrix (columns: ipo, compare, value)
+    Takes: train & test cooccurrence matrices
 
-    Returns: expected cooccurrence matrix (columns: ipo, compare, value)
+    Returns: test PMI matrix, with rows as new indices from test and columns as old indices from train
+
+    Note: test must not have any columns not already in train
     """
-
-    # Create dictionaries corresponding to expected row and column values
-    col_avgs = {}
-    row_avgs = {}
-    total = cooccur.value.sum()
-    for col in cooccur.ipo.unique():
-        col_avgs[col] = cooccur[cooccur.ipo == col].value.sum()/total
-    for row in cooccur.compare.unique():
-        row_avgs[row] = cooccur[cooccur.compare == row].value.sum()/total
-
-    # Initialize expected value df as a copy of cooccurrences, then over-write the value column with expected values rounded to nearest integer
-    expected_cooccur = cooccur
-    for row_index in expected_cooccur.index:
-        col = expected_cooccur.ipo[row_index]
-        row = expected_cooccur.compare[row_index]
-        expected_cooccur.value[row_index] = col_avgs[col]*row_avgs[row]*total
-
-    return expected_cooccur
+    cooccur_full = cooccur_test.append(cooccur_train)
+    transformed_full = cooccur_train_to_pmi(cooccur_full)
+    return transformed_full.ix[len(cooccur_test.index):]
 
 
-
-def build_X_y(filepath_to_sector):
+def cooccurrence_to_smoothed_prop_diff(cooccur, smooth_by=0.1):
     """
-    Takes: filepath to directory for a specific sector containing cleaned co-occurrence and correlation data, saved as cooccur.csv and corr.csv
+    Takes: cooccurrence matrix and additive smoothing factor
 
-    Returns: matrix of expected minus observed cooccurrences, normalized by expected cooccurrences, with additive smoothing.
+    Returns: matrix of pairwise smoothed proportional deviations from expected values
+
+    Notes: expected values are calculated as:
+                p(row)*p(column)*(total number of cooccurrences)
+    and returned values are calculated as:
+                (observed value - expected value + smoothing factor) /
+                    (expected value + smoothing factor)
+    Can be used on testing data alone, training + testing with no new columns, or square matrix with indices in test indices union train indices
     """
-    # Build co-occurrence and expected co-occurrence df's
-    cooccur, y = build_cooccur_obs_and_corr_matrices(filepath_to_sector)
-    expected_cooccur = build_cooccur_exp_matrix(cooccur)
+    exp = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
+    for row in exp.index:
+        for column in exp.columns.values:
+            tot = cooccur.sum().sum()
+            rowsum = cooccur.ix[row].sum()
+            colsum = cooccur.ix[column].sum()
+            exp.ix[row, column] = float(rowsum*colsum)/tot
+    prop_diff = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
+    prop_diff = (cooccur - exp + smooth_by) / (exp + smooth_by)
+    return prop_diff
 
-    # Instantiate X as a copy of cooccur, and drop observations for which both cooccurrences and expected co-occurrences are 0, since these provide no insight into correlation
-    X = cooccur
-    for row_index in cooccur.index:
-        if expected_cooccur.value[row_index] == 0:
-            X = X.drop(row_index)
 
-    # Update X to be the proportion by which the observed co-occurrence value is greater than the rounded expected co-occurrence value
+def cooccurrence_train_to_tfidf(cooccur, save_filepath):
+    """
+    Takes: pairwise cooccurrence matrix and filepath to save the fitted TF-IDF transformer to
 
-    for row_index in X.index:
-        X.value[row_index] = ((cooccur.value[row_index] - expected_cooccur.value[row_index]+0.1)/(expected_cooccur.value[row_index]+0.1))
+    Returns: matrix of TF-IDF frequencies, treating the collection of tags associated with each row index as one document, and frequency of occurrence of column names as word counts
 
-    for row_index in y.index:
-        if row_index not in X.index:
-            y = y.drop(row_index)
+    Other Actions: pickles & saves TF-IDF transformer for future use with testing data
+    """
+    transformer = TfidfTransformer()
+    tfidf = transformer.fit_transform(cooccur)
+    with open(save_filepath, 'wb') as f:
+        pickle.dump(transformer, f)
+     tfidf = pd.DataFrame(tfidf.todense(), index=cooccur.index, columns=cooccur.columns.values)
+     return tfidf
 
-    return X, y
+
+def cooccurrence_test_to_tfidf(cooccur, filepath_to_transformer):
+    """
+    Takes: pairwise cooccurrence matrix and filepath to the fitted TF-IDF transformer
+
+    Returns: matrix of TF-IDF frequencies, treating the collection of tags associated with each row index as one document, and frequency of occurrence of column names as word counts
+
+    Note: will not accept unseen columns which did not appear in training data for TF-IDF
+    """
+    with open(filepath_to_transformer, 'rb') as f:
+        transformer = pickle.load(f)
+    tfidf = transformer.transform(cooccur)
+    return tfidf.applymap(lambda x : x[0][0])
+
+
+def cooccurrence_train_to_jaccard_similarity(cooccur_train):
+    """
+    Takes: pairwise cooccurrence matrix
+
+    Returns: matrix of pairwise similarities between rows using Jaccard distance, treating rows as vectors corresponding to the row index
+    """
+    jacsim = pd.DataFrame(index=cooccur_train.index, columns=cooccur_train.columns.values)
+    for row in jacsim.index:
+        for column in jacsim.columns.values:
+            jacsim.ix[column, row] = 1-jaccard[cooccur_train[row], cooccur_train[column]]
+    return jacsim.applymap(lambda x : x[0][0])
+
+
+def cooccurrence_test_to_jaccard_similarity(cooccur_test,
+                                            cooccur_train):
+    """
+    Takes: test & train pairwise cooccurrence matrices
+
+    Returns: pairwise Jaccard similarities between pairs of rows of testing data and rows of training data. Returned similarities have index in the testing set and columns in the training set
+
+    Note: testing matrix must have exactly the same columns as training matrix
+    """
+    cooccur_full = cooccur_test.append(cooccur_train)
+    transformed_full = cooccur_train_to_jaccard_similarity(cooccur_full)
+    return transformed_full.ix[len(cooccur_test.index):]
+
+
+def fit_transform_dimensionality_reduction_and_similarity(cooccur,
+                                                          save_filepath,
+                                                          distance_metric,
+                                                          model_name,
+                                                          **kwargs):
+    """
+    Takes: cooccurrence matrix, filepath to save fitted dimensionality reduction model to, distance metric (values in [-1, 1]), and model name & keyword arguments for dimensionality reduction model
+
+    Returns: matrix of pairwise similarities under dimensionality reduction model
+
+    Other Actions: pickles & saves fitted dimensionality reduction model to save_filepath for future use on training data
+    """
+    transformer = model_name(kwargs)
+    reduced_cooccur = transformer.fit_transform(cooccur)
+    # Pickle & save transformer for future use
+    with open(save_filepath, 'wb') as f:
+        pickle.dump(model, save_filepath)
+    # Create dataframe to hold distances between
+    transformed_cooccur = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
+    for row in transformed_cooccur.index:
+        for column in transformed_cooccur.columns.values:
+            transformed_cooccur.ix[row, column] = distance_metric(reduced_cooccur.ix[row], reduced_coocur.ix[column])
+    return 1-transformed_cooccur
+
+
+
+
+# Various tools for creating, fitting, evaluating, and testing models
+
+def fit_and_save_model(X_train,
+                       y_train,
+                       save_filepath,
+                       model_name,
+                       **kwargs):
+    """
+    Takes: data to be modeled [array-like], filepath to save model to, model name, and keyword arguments for model
+
+    Returns: Nothing
+
+    Other Actions: fits model & saves to save_filepath
+    """
+    model = model_name(kwargs)
+    model.fit(X_train, y_train)
+    with open(save_filepath, 'wb') as f:
+        pickle.dump(model)
+
+
+def score_model(X_test, y_test, model_filepath):
+    with open(save_filepath, 'rb') as f:
+        model = pickle.load(f)
+    score = model.score(X_test, y_test)
+    return score
+
+
+def predict(X_test, model_filepath):
+    with open(save_filepath, 'rb') as f:
+        model = pickle.load(f)
+    predictions = model.predict(X_test)
+    return predictions
