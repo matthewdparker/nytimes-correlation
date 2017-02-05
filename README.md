@@ -12,8 +12,7 @@ Packages Used:
     - yahoo_finance
     - pandas
     - numpy
-    - pickle
-    - time
-
+    - cPickle
+    - sklearn
 
 NASDAQ / NYSE raw company data acquired from http://www.nasdaq.com/screening/company-list.aspx
