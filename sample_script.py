@@ -1,5 +1,5 @@
-from utils import map_companies_to_files_of_pairs, create_cooccurrence_dict, map_cooccur_tuple_to_float, create_and_clean_cooccur_from_dicts, get_stock_data, pull_and_clean_stock_data, create_correlation_df, match_cooccurrence_and_stock_data
-from modeling import cooccurrence_train_to_tfidf, format_X_for_model_as_rows, format_y_for_model, fit_and_save_model
+from munging_utils import map_companies_to_files_of_pairs, create_cooccurrence_dict, map_cooccur_tuple_to_float, create_and_clean_cooccur_from_dicts, get_stock_data, pull_and_clean_stock_data, create_correlation_df, match_cooccurrence_and_stock_data
+from modeling_utils import cooccurrence_train_to_tfidf, format_X_for_model_as_rows, format_y_for_model, fit_and_save_model
 from sklearn.ensemble import RandomForestRegressor
 import sys
 
