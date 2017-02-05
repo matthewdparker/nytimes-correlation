@@ -12,6 +12,7 @@ Packages Used:
     - yahoo_finance
     - pandas
     - numpy
+    - scipy
     - cPickle
     - sklearn
 
