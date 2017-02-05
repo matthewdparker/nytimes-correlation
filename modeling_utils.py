@@ -79,8 +79,8 @@ def cooccurrence_train_to_tfidf(cooccur, save_filepath):
     tfidf = transformer.fit_transform(cooccur)
     with open(save_filepath, 'wb') as f:
         pickle.dump(transformer, f)
-     tfidf = pd.DataFrame(tfidf.todense(), index=cooccur.index, columns=cooccur.columns.values)
-     return tfidf
+    tfidf = pd.DataFrame(tfidf.todense(), index=cooccur.index, columns=cooccur.columns.values)
+    return tfidf
 
 
 def cooccurrence_test_to_tfidf(cooccur, filepath_to_transformer):
@@ -165,9 +165,9 @@ def format_X_for_modeling_as_rows(pairwise_matrix):
                              columns = pairwise_matrix.columns.values)
     for row in unstacked.index:
         for column in unstacked.columns.values:
-            unstacked.ix[row, column] = pairwise_matrix.ix[row].append(pairwise_matrix.ix[column])
-    return unstacked.stack()
-
+            unstacked[row][column] = pairwise_matrix.ix[row].append(pairwise_matrix.ix[column])
+    stacked = pd.DataFrame([unstacked.stack()[i].values for i in range(len(pairwise_matrix.index)*len(pairwise_matrix.columns))])
+    return stacked
 
 def format_y_for_model(pairwise_matrix):
     return pairwise_matrix.stack()
