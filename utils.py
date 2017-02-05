@@ -14,7 +14,7 @@ def map_companies_to_files_of_pairs(filepath_to_csv, save_filepath_stem):
 
     Other Actions: Creates csv's of length 750, where each row is a pair of companies and columns are company1, ticker1, company2, ticker2
 
-    Note: lenth 750 chosen because a single NY Times API key has a limit of 1,000 requests per day; since we may request multiple pages of results for a single pair, we need to stay well below this threshold.
+    Note: lenth 750 chosen because a single NY Times API key has a limit of 1,000 requests per day; since we may request multiple pages of results for a single pair of companies, we need to limit the number of companies to well below this threshold. This function, together with reconstitute_dictionary, allows for parallelization of the data collection process.
     """
     company_metadata = pd.read_csv(filepath)
     list_of_pairs = []
@@ -231,7 +231,7 @@ def get_stock_data(ticker, start_date, end_date):
 
 def pull_and_clean_stock_data(filepath, start_date, end_date):
     """
-    Takes: Ticker symbol (str) and start & end date strings in the form 'YYYY-MM-DD'
+    Takes: CSV containing metadata about companies to pull pricing data for, and start & end date strings in the form 'YYYY-MM-DD'
 
     Returns: Nothing
 
@@ -261,8 +261,39 @@ def pull_and_clean_stock_data(filepath, start_date, end_date):
         pickle.dump(pricing_df, f)
 
 
-def match_cooccurrence_and_stock_data(cooccur, correlation):
+def create_correlation_df(filepath_to_metadata,
+                          filepath_to_stock_data,
+                          save_filepath):
+    """
+    Takes: filepath to company metadata, filepath to stock data cleaned & formatted by pull_and_clean_stock_data, and filepath at which to save dataframe containing correlation data
+
+    Returns: Nothing
+
+    Other Actions: Creates & pickles dataframe with rows & columns of companies in metadata file, and values correlation between companies at row and column indices.
+    """
+    companies = pd.read_csv(filepath_to_metadata).Symbol
+
+    with open(filepath_to_stock_data, 'rb') as f:
+        stock_data = pickle.load(f)
+
+    correlation = pd.DataFrame(index = companies, columns=companies)
+    for row in correlation.index:
+        for column in correlation.columns.values:
+            correlation.ix[row, column] = stock_data[row].corr(stock_data[column])
+
+    with open(save_filepath, 'wb') as f:
+        pickle.dump(correlation, f)
+
+
+def match_cooccurrence_and_stock_data(cooccur_filepath,
+                                      correlation_filepath):
     """Makes sure cooccurrence and correlation matrices contain same columns & rows. Drops any which occur in one but not the other, returns agreeing versions"""
+    with open(cooccur_filepath, 'rb') as f:
+        cooccur = pickle.load(f)
+
+    with open(correlation_filepath, 'rb') as f:
+        correlation = pickle.load(f)
+
     for company in list(set(cooccur.index)-set(correlation.index)):
         cooccur.drop(company, inplace=True)
         cooccur.drop(company, axis=1, inplace=True)

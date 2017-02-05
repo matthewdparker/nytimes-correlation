@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import cPickle as pickle
+from itertools import product
 from sklearn.decomposition import NMF, TruncatedSVD, PCA
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.spatial.distance import jaccard
@@ -151,6 +152,26 @@ def fit_transform_dimensionality_reduction_and_similarity(cooccur,
 
 
 # Various tools for creating, fitting, evaluating, and testing models
+
+def format_X_for_modeling_as_rows(pairwise_matrix):
+    """
+    Takes: matrix of pairwise values (e.g. cooccurrence matrix)
+
+    Returns: concatenated rows corresponding to stacked pairs of companies, one from index and one from columns, for modeling
+
+    Notes: First a matrix is created, for which index and columns are companies, and values are the row values associated with company from index, concatenated with row values associated with company from column. Values are therefore 2*len(pairwise_matrix.columns) long. Function then calls and returns stack() on this new dataframe, so that resulting row is an input vector mapping directly to a target at similar index in correlation.stack().
+    """
+    unstacked = pd.DataFrame(index = pairwise_matrix.index,
+                             columns = pairwise_matrix.columns.values)
+    for row in unstacked.index:
+        for column in unstacked.columns.values:
+            unstacked.ix[row, column] = pairwise_matrix.ix[row].append(pairwise_matrix.ix[column])
+    return unstacked.stack()
+
+
+def format_y_for_model(pairwise_matrix):
+    return pairwise_matrix.stack()
+
 
 def fit_and_save_model(X_train,
                        y_train,
