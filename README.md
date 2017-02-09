@@ -26,6 +26,6 @@ Packages Used:
 
 ### Thanks To:
 
-Delia Rusu - her excellent PyData talks on Estimating Stock Correlations Using Wikipedia provided inspiration and guidance for this project.
+_Delia Rusu_ - her excellent PyData talks on Estimating Stock Correlations Using Wikipedia provided inspiration and guidance for this project.
 
-Kyle Polich - his podcast Data Skeptic brought Delia's project (and countless other interesting topics) to my attention in the first place.
+_Kyle Polich_ - his podcast Data Skeptic brought Delia's project (and countless other interesting topics) to my attention in the first place.
