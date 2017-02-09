@@ -1,12 +1,25 @@
 import pandas as pd
 import numpy as np
 import cPickle as pickle
-from itertools import product
+from itertools import product, combinations
 from sklearn.decomposition import NMF, TruncatedSVD, PCA
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.spatial.distance import jaccard
 from sklearn.feature_extraction.text import TfidfTransformer
 
+'''
+Functions defined:
+-  cooccurrence_train_to_pmi
+-  cooccurrence_test_to_pmi
+-  cooccurrence_to_expected_value
+-  cooccurrence_train_to_tfidf
+-  cooccurrence_test_to_tfidf
+-  cooccurrence_train_to_jaccard_similarity
+-  cooccurrence_test_to_jaccard_similarity
+-  fit_transform_dimensionality_reduction_and_similarity
+-  format_X_for_modeling_as_rows
+-  format_y_for_model
+'''
 
 
 # Various tools for tansforming representations of data
@@ -29,7 +42,7 @@ def cooccurrence_train_to_pmi(cooccur):
     return pmi
 
 
-def coocurrence_test_to_pmi(cooccur_train, cooccur_test):
+def cooccurrence_test_to_pmi(cooccur_train, cooccur_test):
     """
     Takes: train & test cooccurrence matrices
 
@@ -42,7 +55,7 @@ def coocurrence_test_to_pmi(cooccur_train, cooccur_test):
     return transformed_full.ix[len(cooccur_test.index):]
 
 
-def cooccurrence_to_smoothed_prop_diff(cooccur, smooth_by=0.1):
+def cooccurrence_to_expected_value(cooccur, smooth_by=0.1):
     """
     Takes: cooccurrence matrix and additive smoothing factor
 
@@ -153,53 +166,28 @@ def fit_transform_dimensionality_reduction_and_similarity(cooccur,
 
 # Various tools for creating, fitting, evaluating, and testing models
 
-def format_X_for_modeling_as_rows(pairwise_matrix):
+def format_X_for_modeling_as_rows(pairwise_df):
     """
     Takes: matrix of pairwise values (e.g. cooccurrence matrix)
 
     Returns: concatenated rows corresponding to stacked pairs of companies, one from index and one from columns, for modeling
 
-    Notes: First a matrix is created, for which index and columns are companies, and values are the row values associated with company from index, concatenated with row values associated with company from column. Values are therefore 2*len(pairwise_matrix.columns) long. Function then calls and returns stack() on this new dataframe, so that resulting row is an input vector mapping directly to a target at similar index in correlation.stack().
+    Notes: First a matrix is created, for which index and columns are companies, and values are the row values associated with company from index, concatenated with row values associated with company from column. Values are therefore 2*len(pairwise_df.columns) long. Function then calls and returns stack() on this new dataframe, so that resulting row is an input vector mapping directly to a target at similar index in correlation.stack().
     """
-    unstacked = pd.DataFrame(index = pairwise_matrix.index,
-                             columns = pairwise_matrix.columns.values)
-    for row in unstacked.index:
-        for column in unstacked.columns.values:
-            unstacked[row][column] = pairwise_matrix.ix[row].append(pairwise_matrix.ix[column])
-    stacked = pd.DataFrame([unstacked.stack()[i].values for i in range(len(pairwise_matrix.index)*len(pairwise_matrix.columns))])
+    pairwise_lower = pd.DataFrame(index=range(pairwise_array.shape[0])), columns=range(pairwise_array.shape[1]))
+    pairs = [x for x in product(range(len(pairwise_array)), 2)]
+    for (a, b) in pairs:
+            unstacked[row][column] = pairwise_df.ix[row].append(pairwise_df.ix[column])
+    stacked = pd.DataFrame([unstacked.stack()[i].values for i in range(len(pairwise_df.index)*len(pairwise_df.columns))])
     return stacked
 
-def format_y_for_model(pairwise_matrix):
-    return pairwise_matrix.stack()
 
-
-def fit_and_save_model(X_train,
-                       y_train,
-                       save_filepath,
-                       model_name,
-                       **kwargs):
-    """
-    Takes: data to be modeled [array-like], filepath to save model to, model name, and keyword arguments for model
-
-    Returns: Nothing
-
-    Other Actions: fits model & saves to save_filepath
-    """
-    model = model_name(kwargs)
-    model.fit(X_train, y_train)
-    with open(save_filepath, 'wb') as f:
-        pickle.dump(model)
-
-
-def score_model(X_test, y_test, model_filepath):
-    with open(save_filepath, 'rb') as f:
-        model = pickle.load(f)
-    score = model.score(X_test, y_test)
-    return score
-
-
-def predict(X_test, model_filepath):
-    with open(save_filepath, 'rb') as f:
-        model = pickle.load(f)
-    predictions = model.predict(X_test)
-    return predictions
+def format_y_for_model(pairwise_df):
+    if set(pairwise_df.index) == set(pairwise_df.columns.values):
+        pairwise_lower = pd.DataFrame(index=pairwise_df.index, columns=pairwise_df.columns.values)
+        pairs = [x for x in combinations(pairwise_df.index, 2)]
+        for (a, b) in pairs:
+            pairwise_lower[b][a] = pairwise_df.ix[b, a]
+        return pairwise_lower.stack().ravel()
+    else:
+        return pairwise_df.stack().ravel()
