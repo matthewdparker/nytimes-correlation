@@ -85,8 +85,7 @@ def create_cooccurrence_dict(filepath_to_pairs_csv, api_key):
         page_offset = 0
         dates = []
         hits = 0
-
-        company1, company2, ticker1, ticker2 = pairs.ix[row_index].values
+        [company1, company2, ticker1, ticker2] = pairs.ix[row_index].values
 
         if current_count < article_count:
             # Reload pickled dictionary to re-add new count, then re-pickle

@@ -36,9 +36,9 @@ def cooccurrence_train_to_pmi(cooccur):
     for row in pmi.index:
         for column in pmi.columns.values:
             tot = cooccur.sum().sum()
-            rowsum = cooccur.ix[row].sum()
-            colsum = cooccur.ix[column].sum()
-            pmi.ix[row, column] = float(exp.ix[row, column]*tot)/(rowsum*colsum)
+            rowsum = cooccur.loc[row].sum()
+            colsum = cooccur.loc[column].sum()
+            pmi.ix[row, column] = float(exp.loc[row, column]*tot)/(rowsum*colsum)
     return pmi
 
 
@@ -72,9 +72,9 @@ def cooccurrence_to_expected_value(cooccur, smooth_by=0.1):
     for row in exp.index:
         for column in exp.columns.values:
             tot = cooccur.sum().sum()
-            rowsum = cooccur.ix[row].sum()
-            colsum = cooccur.ix[column].sum()
-            exp.ix[row, column] = float(rowsum*colsum)/tot
+            rowsum = cooccur.loc[row].sum()
+            colsum = cooccur.loc[column].sum()
+            exp.loc[row, column] = float(rowsum*colsum)/tot
     prop_diff = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
     prop_diff = (cooccur - exp + smooth_by) / (exp + smooth_by)
     return prop_diff
@@ -119,7 +119,7 @@ def cooccurrence_train_to_jaccard_similarity(cooccur_train):
     jacsim = pd.DataFrame(index=cooccur_train.index, columns=cooccur_train.columns.values)
     for row in jacsim.index:
         for column in jacsim.columns.values:
-            jacsim.ix[column, row] = 1-jaccard[cooccur_train[row], cooccur_train[column]]
+            jacsim.loc[column, row] = 1-jaccard[cooccur_train[row], cooccur_train[column]]
     return jacsim.applymap(lambda x : x[0][0])
 
 
@@ -134,7 +134,7 @@ def cooccurrence_test_to_jaccard_similarity(cooccur_test,
     """
     cooccur_full = cooccur_test.append(cooccur_train)
     transformed_full = cooccur_train_to_jaccard_similarity(cooccur_full)
-    return transformed_full.ix[len(cooccur_test.index):]
+    return transformed_full.iloc[len(cooccur_test.index):]
 
 
 def fit_transform_dimensionality_reduction_and_similarity(cooccur,
@@ -158,7 +158,7 @@ def fit_transform_dimensionality_reduction_and_similarity(cooccur,
     transformed_cooccur = pd.DataFrame(index = cooccur.index, columns=cooccur.columns.values)
     for row in transformed_cooccur.index:
         for column in transformed_cooccur.columns.values:
-            transformed_cooccur.ix[row, column] = distance_metric(reduced_cooccur.ix[row], reduced_coocur.ix[column])
+            transformed_cooccur.loc[row, column] = distance_metric(reduced_cooccur.loc[row], reduced_coocur.loc[column])
     return 1-transformed_cooccur
 
 
@@ -177,7 +177,7 @@ def format_X_for_modeling_as_rows(pairwise_df):
     pairwise_lower = pd.DataFrame(index=range(pairwise_array.shape[0])), columns=range(pairwise_array.shape[1]))
     pairs = [x for x in product(range(len(pairwise_array)), 2)]
     for (a, b) in pairs:
-            unstacked[row][column] = pairwise_df.ix[row].append(pairwise_df.ix[column])
+            unstacked[row][column] = pairwise_df.loc[row].append(pairwise_df.loc[column])
     stacked = pd.DataFrame([unstacked.stack()[i].values for i in range(len(pairwise_df.index)*len(pairwise_df.columns))])
     return stacked
 
