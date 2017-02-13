@@ -174,8 +174,8 @@ def format_X_for_modeling_as_rows(pairwise_df):
 
     Notes: First a matrix is created, for which index and columns are companies, and values are the row values associated with company from index, concatenated with row values associated with company from column. Values are therefore 2*len(pairwise_df.columns) long. Function then calls and returns stack() on this new dataframe, so that resulting row is an input vector mapping directly to a target at similar index in correlation.stack().
     """
-    pairwise_lower = pd.DataFrame(index=range(pairwise_array.shape[0])), columns=range(pairwise_array.shape[1]))
-    pairs = [x for x in product(range(len(pairwise_array)), 2)]
+    pairwise_lower = pairwise_df.copy()
+    pairs = [x for x in product(pairwise_df.index, pairwise_df.columns.values)]
     for (a, b) in pairs:
             unstacked[row][column] = pairwise_df.loc[row].append(pairwise_df.loc[column])
     stacked = pd.DataFrame([unstacked.stack()[i].values for i in range(len(pairwise_df.index)*len(pairwise_df.columns))])
@@ -184,8 +184,8 @@ def format_X_for_modeling_as_rows(pairwise_df):
 
 def format_y_for_model(pairwise_df):
     if set(pairwise_df.index) == set(pairwise_df.columns.values):
-        pairwise_lower = pd.DataFrame(index=pairwise_df.index, columns=pairwise_df.columns.values)
-        pairs = [x for x in combinations(pairwise_df.index, 2)]
+        pairwise_lower = pairwise_df.copy()
+        pairs = [x for x in product(pairwise_df.index, pairwise_df.columns.values)]
         for (a, b) in pairs:
             pairwise_lower[b][a] = pairwise_df.ix[b, a]
         return pairwise_lower.stack().ravel()
