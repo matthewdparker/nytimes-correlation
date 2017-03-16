@@ -20,7 +20,6 @@ Due to time constraints, I was only able to roll out the model on the top 100 co
 ![](https://github.com/matthewdparker/nytimes-correlation/blob/master/images/R_Squared_values.png)
 
 
-
 ## Data Sources & Dependencies
 
 The project utilizes the NY Times Article Search API to determine co-occurrences counts of pairs of companies within articles, and the Yahoo Finance API for historical pricing data. The project examined NY Times articles from 2010 - 2014 (inclusive), and stock correlations 2015 - 2016 (inclusive). The raw metadata for the companies used (e.g. stock ticker symbols, company names, annual revenue) can be found at http://www.nasdaq.com/screening/company-list.aspx.
@@ -43,8 +42,6 @@ Packages Used:
 **Data Collection & Munging** tools are found in the file munging_utils.py. It includes functions which automate the collecting and formatting of both the NY Times and the stock correlation data.
 
 **Modeling and Predicting** tools are found in the file modeling_utils.py. It includes functions for applying various transforms to the array of cooccurrences, including TF-IDF, Pointwise Mutual Information, and various dimensionality reduction techniques such as NMF and SVD.
-
-
 
 
 ### Thanks To:
