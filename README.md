@@ -17,7 +17,7 @@ Multiple different data manipulation techniques were combined and compared, with
 Due to time constraints, I was only able to roll out the model on the top 100 companies by market capitalization across the combined NYSE and NASDAQ. Of these, 17 companies did not fit the data parameters of the model - for example, Facebook only IPO'd in 2012 - for a total dataset of 83 distinct companies, and 3,404 unique pairwise correlations.
 
 
-![alt text](link_address)
+![](https://github.com/matthewdparker/nytimes-correlation/blob/master/images/R_Squared_values.png)
 
 
 
