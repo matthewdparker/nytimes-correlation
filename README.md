@@ -1,6 +1,5 @@
 # Predicting Stock Correlations with the NY Times Dataset
 
-
 ## Project Summary
 
 This data science project is aimed at identifying latent signal within the New York Times dataset for future stock correlations. The motivating use case is the portfolio construction problem encountered when deciding whether to buy a stock without an extensive pricing history for back-testing, for example one which was just recently issued. One needs to understand the correlation with the other stocks in the portfolio to accurately assess the impact to the risk profile, but no pricing data is available for back-testing correlations so these quantities must be estimated in other ways.
@@ -44,7 +43,7 @@ Packages Used:
 **Modeling and Predicting** tools are found in the file modeling_utils.py. It includes functions for applying various transforms to the array of cooccurrences, including TF-IDF, Pointwise Mutual Information, and various dimensionality reduction techniques such as NMF and SVD.
 
 
-### Thanks To:
+## Thanks To:
 
 __Delia Rusu__ - her excellent PyData talks on Estimating Stock Correlations Using Wikipedia provided inspiration and guidance for this project.
 
