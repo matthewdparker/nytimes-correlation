@@ -20,6 +20,23 @@ Due to time constraints, I was only able to roll out the model on the top 100 co
 ![](https://github.com/matthewdparker/nytimes-correlation/blob/master/images/R_Squared_values.png)
 
 
+Clearly we may conclude there is indeed predictive power for stock correlations within the NY Times dataset, though it's noisy enough that any production model would almost certainly require additional data sources and techniques. 
+
+
+## Additional Considerations / Next Steps
+
+One primary area of interest for me is to see what the impact might be of adding additional news sources which have minimal overlap with, or different primary missions from, the NY Times; for example, regional business journals (San Francisco Business Times) or industry-specific journals or blogs (TechCrunch). In a similar vein I'm also interested in the effect and mechanics of adding additional regions to the scope of the model, both on the data source and target metrics side; for example, to add the LSE, one would also need to add primarily London- or UK-focused news sources. 
+
+All of the above amount to creating an ensemble model, and one important question that would require further investigation is how to put different data sources on a common footing. For example, San Francisco-based business journals might have more latent signal for correlations between Salesforce and Oracle than a manufacturing industry periodical, but it would likely also mention them together more frequently in articles; the question is, what does the general relationship between frequency and signal look like, and what is the best method for accounting for it in an ensemble model?
+
+Another area of interest which was not investigated fully due to time constraints is the optimization of down-weighting the contributed score of older articles; it's intuitively clear that an article which mentions Amazon.com from 2001 is not doing so in the same business context as one which mentions it from 2014. Mastery, or even optimization, of this time-dependency of signal would allow the model to reach further back into history to identify useful co-occurrences and deliver a more informed final prediction.
+
+The project can also be taken in a more NLP-heavy direction, if the code were modified to return the full article text as well as co-occurrence counts. This would enable sentiment analysis to try to predict the strength and direction of the signal implicit in the article, and introduce more directionality into the model. While I imagine this might be the most time-consuming of the potential modifications, I believe it may have the most potential for performance improvement as well.
+
+Finally, there is the question of benchmarking performance, and quantifying "how good is good" for a model. I would consider some sort of naive prediction based on SIC-code similarity to be a good baseline; again, given time constraints this was not initially within the scope of the project but is a key element in assessing relative improvement.
+
+
+
 ## Data Sources & Dependencies
 
 The project utilizes the NY Times Article Search API to determine co-occurrences counts of pairs of companies within articles, and the Yahoo Finance API for historical pricing data. The project examined NY Times articles from 2010 - 2014 (inclusive), and stock correlations 2015 - 2016 (inclusive). The raw metadata for the companies used (e.g. stock ticker symbols, company names, annual revenue) can be found at http://www.nasdaq.com/screening/company-list.aspx.
