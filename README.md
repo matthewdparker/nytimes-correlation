@@ -1,5 +1,6 @@
 # Predicting Stock Correlations with the NY Times Dataset
 
+*Examining Unconventional, Unstructured Data for Financial Signal*
 
 ## Project Summary
 
