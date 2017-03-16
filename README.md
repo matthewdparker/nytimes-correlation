@@ -1,5 +1,4 @@
 # Predicting Stock Correlations with the NY Times Dataset
-
 ## Project Summary
 
 This data science project is aimed at identifying latent signal within the New York Times dataset for future stock correlations. The motivating use case is the portfolio construction problem encountered when deciding whether to buy a stock without an extensive pricing history for back-testing, for example one which was just recently issued. One needs to understand the correlation with the other stocks in the portfolio to accurately assess the impact to the risk profile, but no pricing data is available for back-testing correlations so these quantities must be estimated in other ways.
